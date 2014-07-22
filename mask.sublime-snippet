@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+				<defs>
+					<mask id="$1">
+						$2
+					</mask>
+				</defs>
+]]></content>
+	<description>SVG - MASK: mask</description>
+	<tabTrigger>mask</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

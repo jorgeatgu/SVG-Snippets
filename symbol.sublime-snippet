@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+				<symbol id="$1">
+
+				</symbol>
+				<use xlink:href="#$1"/>
+				<use xlink:href="#$1" x="$2" y="$3"/>
+]]></content>
+	<description>SVG - Symbol: symbol</description>
+	<tabTrigger>symbol</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

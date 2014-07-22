@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<text x="$1" y="$2" fill="$3">$4</text>]]></content>
+	<description>SVG - TEXT: text</description>
+	<tabTrigger>text</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

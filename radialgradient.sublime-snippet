@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+				<radialGradient id="$1" gradientUnits="objectBoundingBox">
+                  <stop offset="$2" stop-color="$3"/>
+                  <stop offset="$4" stop-color="$5"/>
+              	</radialGradient>
+]]></content>
+	<description>SVG - GRADIENTS: radialGradient</description>
+	<tabTrigger>radialgradient</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

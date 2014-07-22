@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+				<defs>
+					<clipPath id="$1">
+							$2
+					</clipPath>
+				</defs>
+]]></content>
+	<description>SVG - Clip-Path: clipPath</description>
+	<tabTrigger>clippath</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+				<rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
+				<rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
+				<rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: rectangle × 3</description>
+	<tabTrigger>rect3</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

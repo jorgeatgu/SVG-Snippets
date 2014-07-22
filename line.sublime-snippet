@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>]]></content>
+	<description>SVG - BASIC SHAPES: line</description>
+	<tabTrigger>line</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

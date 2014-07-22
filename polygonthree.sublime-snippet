@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+				<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+				<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+				<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: polygon × 3</description>
+	<tabTrigger>polygon3</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+		<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
+
+				<title id="title">$4</title>
+                <desc id="desc">$5</desc>
+
+                <defs>
+
+
+
+                </defs>
+
+
+                <use xlink:href="#" x="" y=""/>
+        </svg>
+]]></content>
+	<description>SVG - STRUCTURE: svg + title + desc + DRY</description>
+	<tabTrigger>scalableu</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

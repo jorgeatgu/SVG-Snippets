@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+			<defs>
+				<polygon id="$1" points="$2" fill="$3" stroke="$4" stroke-width="$5"/>
+			</defs>
+
+			<use xlink:href="#$6" />
+			<use xlink:href="#$6" x="$7" y="$8"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: polygon + use</description>
+	<tabTrigger>polygonu</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

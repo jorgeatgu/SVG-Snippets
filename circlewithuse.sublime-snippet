@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+		<defs>
+			<circle id="$1" r="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
+		</defs>
+
+		<use xlink:href="#$8"/>
+		<use xlink:href="#$8" x="$9" y="$10"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: circle + use</description>
+	<tabTrigger>circleu</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

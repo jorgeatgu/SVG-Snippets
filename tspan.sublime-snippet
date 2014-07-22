@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<tspan fill="$1" x="$2" y="$3">$4</tspan>]]></content>
+	<description>SVG - TEXT: tspan</description>
+	<tabTrigger>tspan</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

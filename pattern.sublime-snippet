@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+				<defs>
+					<pattern id="$1" width="$2" height="$3" patternUnits="userSpaceOnUse">
+						$4
+					</pattern>
+				</defs>
+]]></content>
+	<description>SVG - PATTERN: patterns</description>
+	<tabTrigger>pattern</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

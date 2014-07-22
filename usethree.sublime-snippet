@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+			<use xlink:href="#$1"/>
+			<use xlink:href="#$1" x="$2" y="$3"/>
+			<use xlink:href="#$1" x="$4" y="$5"/>
+]]></content>
+	<description>SVG - DRY: use × 3</description>
+	<tabTrigger>use3</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

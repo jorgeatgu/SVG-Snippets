@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+				<g id="$1">
+						$2
+				</g>
+]]></content>
+	<description>SVG: group</description>
+	<tabTrigger>group</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

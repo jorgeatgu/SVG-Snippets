@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>]]></content>
+	<description>SVG - BASIC SHAPES: ellipse</description>
+	<tabTrigger>ellipse</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

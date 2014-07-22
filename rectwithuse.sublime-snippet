@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+			<defs>
+				<rect id="$1" x="$2" y="$3" width="$4" height="$5" fill="$6" stroke="$7" stroke-width="$8"/>
+			</defs>
+
+			<use xlink:href="#$9"/>
+			<use xlink:href="#$9" x="$10" y="$11"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: rectangle + use</description>
+	<tabTrigger>rectu</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

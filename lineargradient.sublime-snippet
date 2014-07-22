@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+				<linearGradient id="$1" gradientUnits="objectBoundingBox">
+                  <stop offset="$2" stop-color="$3"/>
+                  <stop offset="$4" stop-color="$5"/>
+              	</linearGradient>
+]]></content>
+	<description>SVG - GRADIENTS: linearGradient</description>
+	<tabTrigger>lineargradient</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

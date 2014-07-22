@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+				<polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+				<polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+				<polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: polyline × 3</description>
+	<tabTrigger>polyline3</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

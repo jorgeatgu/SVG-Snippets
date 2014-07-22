@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+				<circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
+				<circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
+				<circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: circle × 3</description>
+	<tabTrigger>circle3</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+			<defs>
+				<line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
+			</defs>
+
+			<use xlink:href="#$7" />
+			<use xlink:href="#$7" x="$8" y="$9"/>
+]]></content>
+	<description>SVG - BASIC SHAPES: line</description>
+	<tabTrigger>lineu</tabTrigger>
+	<scope>text.html, text.xml</scope>
+</snippet>
