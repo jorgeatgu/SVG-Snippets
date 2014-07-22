@@ -10,7 +10,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 ```html
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
-``
+```
 
 ###circle3
 
@@ -18,7 +18,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
-``
+```
 
 ###circleu
 
@@ -29,7 +29,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 <use xlink:href="#$8"/>
 <use xlink:href="#$8" x="$9" y="$10"/>
-``
+```
 
 ###clippath
 
@@ -39,7 +39,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 		$2
 	</clipPath>
 </defs>
-``
+```
 
 ###defsuse
 
@@ -50,13 +50,13 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
-``
+```
 
 ###ellipse
 
 ```html
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-``
+```
 
 ###ellipse3
 
@@ -64,7 +64,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-``
+```
 
 ###ellipseu
 
@@ -75,7 +75,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 <use xlink:href="#$9" />
 <use xlink:href="#$9" x="$10" y="$11"/>
-``
+```
 
 ###group
 
@@ -85,19 +85,19 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 	$2
 
 </g>
-``
+```
 
 ###line
 
 ```html
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
-``
+```
 
 ###line
 
 ```html
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
-``
+```
 
 ###lineu
 
@@ -108,7 +108,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 <use xlink:href="#$7" />
 <use xlink:href="#$7" x="$8" y="$9"/>
-``
+```
 
 ###lineargradient
 
@@ -117,19 +117,19 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 	<stop offset="$2" stop-color="$3"/>
 	<stop offset="$4" stop-color="$5"/>
 </linearGradient>
-``
+```
 
 ###matrix
 
 ```html
 transform="matrix($1 $2 $3 $4 $5 $6)"
-``
+```
 
 ###path
 
 ```html
 <path d="$1" stroke-width="$2" stroke="$3" fill="$4"/>
-``
+```
 
 ###pattern
 
@@ -139,13 +139,13 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 		$4
 	</pattern>
 </defs>
-``
+```
 
 ###polygon
 
 ```html
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-``
+```
 
 ###polygon3
 
@@ -153,7 +153,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-``
+```
 
 ###polygonu
 
@@ -161,13 +161,13 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-``
+```
 
 ###polyline
 
 ```html
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-``
+```
 
 ###polyline3
 
@@ -175,7 +175,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-``
+```
 
 ###polylineu
 
@@ -186,7 +186,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 
 <use xlink:href="#$6"/>
 <use xlink:href="#$6" x="$7" y="$8"/>
-``
+```
 
 ###radialgradient
 
@@ -195,13 +195,13 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 	<stop offset="$2" stop-color="$3"/>
 	<stop offset="$4" stop-color="$5"/>
 </radialGradient>
-``
+```
 
 ###rect
 
 ```html
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-``
+```
 
 ###rect3
 
@@ -209,7 +209,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-``
+```
 
 ###rectu
 
@@ -220,13 +220,13 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 
 <use xlink:href="#$9"/>
 <use xlink:href="#$9" x="$10" y="$11"/>
-``
+```
 
 ###rotate
 
 ```html
 transform="rotate($1)"
-``
+```
 
 ###scalable
 
@@ -238,7 +238,7 @@ transform="rotate($1)"
                 <desc id="desc">$5</desc>
 
 </svg>
-``
+```
 
 ###scalableu
 
@@ -259,20 +259,20 @@ transform="rotate($1)"
                 <use xlink:href="#" x="" y=""/>
 
 </svg>
-``
+```
 
 
 ###skewX
 
 ```html
 transform="skewX($1)"
-``
+```
 
 ###skewY
 
 ```html
 transform="skewY($1)"
-``
+```
 
 ###symbol
 
@@ -282,31 +282,31 @@ transform="skewY($1)"
 </symbol>
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
-``
+```
 
 ###text
 
 ```html
 <text x="$1" y="$2" fill="$3">$4</text>
-``
+```
 
 ###translate
 
 ```html
 transform="translate($1)"
-``
+```
 
 ###tspan
 
 ```html
 <tspan fill="$1" x="$2" y="$3">$4</tspan>
-``
+```
 
 ###use
 
 ```html
 <use xlink:href="#$1" x="$2" y="$3"/>
-``
+```
 
 ###use3
 
@@ -314,5 +314,5 @@ transform="translate($1)"
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
 <use xlink:href="#$1" x="$4" y="$5"/>
-``
+```
 
