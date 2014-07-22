@@ -8,257 +8,229 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 ###circle
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
-~~~~~~~
+``
 
 ###circle3
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
-~~~~~~~
+``
 
 ###circleu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<circle id="$1" r="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 </defs>
 
 <use xlink:href="#$8"/>
 <use xlink:href="#$8" x="$9" y="$10"/>
-~~~~~~~
+``
 
 ###clippath
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<clipPath id="$1">
 		$2
 	</clipPath>
 </defs>
-~~~~~~~
+``
 
 ###defsuse
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 
 </defs>
 
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
-~~~~~~~
+``
 
 ###ellipse
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-~~~~~~~
+``
 
 ###ellipse3
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-~~~~~~~
+``
 
 ###ellipseu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<ellipse id="$1" rx="$2" ry="$3" cx="$4" cy="$5" fill="$6" stroke="$7" stroke-width="$8"/>
 </defs>
 
 <use xlink:href="#$9" />
 <use xlink:href="#$9" x="$10" y="$11"/>
-~~~~~~~
+``
 
 ###group
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <g id="$1">
 
 	$2
 
 </g>
-~~~~~~~
+``
 
 ###line
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
-~~~~~~~
+``
 
 ###line
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
-~~~~~~~
+``
 
 ###lineu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 </defs>
 
 <use xlink:href="#$7" />
 <use xlink:href="#$7" x="$8" y="$9"/>
-~~~~~~~
+``
 
 ###lineargradient
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <linearGradient id="$1" gradientUnits="objectBoundingBox">
 	<stop offset="$2" stop-color="$3"/>
-	<stop offset="$4" stop-color="$5"/>  
+	<stop offset="$4" stop-color="$5"/>
 </linearGradient>
-~~~~~~~
+``
 
 ###matrix
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 transform="matrix($1 $2 $3 $4 $5 $6)"
-~~~~~~~
+``
 
 ###path
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <path d="$1" stroke-width="$2" stroke="$3" fill="$4"/>
-~~~~~~~
+``
 
 ###pattern
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<pattern id="$1" width="$2" height="$3" patternUnits="userSpaceOnUse">
 		$4
 	</pattern>
 </defs>
-~~~~~~~
+``
 
 ###polygon
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-~~~~~~~
+``
 
 ###polygon3
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-~~~~~~~
+``
 
 ###polygonu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-~~~~~~~
+``
 
 ###polyline
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-~~~~~~~
+``
 
 ###polyline3
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-~~~~~~~
+``
 
 ###polylineu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<polyline id="$1" points="$2" fill="$3" stroke="$4" stroke-width="$5"/>
 </defs>
 
 <use xlink:href="#$6"/>
 <use xlink:href="#$6" x="$7" y="$8"/>
-~~~~~~~
+``
 
 ###radialgradient
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <radialGradient id="$1" gradientUnits="objectBoundingBox">
 	<stop offset="$2" stop-color="$3"/>
-	<stop offset="$4" stop-color="$5"/>  
+	<stop offset="$4" stop-color="$5"/>
 </radialGradient>
-~~~~~~~
+``
 
 ###rect
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-~~~~~~~
+``
 
 ###rect3
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
-~~~~~~~
+``
 
 ###rectu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <defs>
 	<rect id="$1" x="$2" y="$3" width="$4" height="$5" fill="$6" stroke="$7" stroke-width="$8"/>
 </defs>
 
 <use xlink:href="#$9"/>
 <use xlink:href="#$9" x="$10" y="$11"/>
-~~~~~~~
+``
 
 ###rotate
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 transform="rotate($1)"
-~~~~~~~
+``
 
 ###scalable
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
 
@@ -266,12 +238,11 @@ transform="rotate($1)"
                 <desc id="desc">$5</desc>
 
 </svg>
-~~~~~~~
+``
 
 ###scalableu
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
 
@@ -288,68 +259,60 @@ transform="rotate($1)"
                 <use xlink:href="#" x="" y=""/>
 
 </svg>
-~~~~~~~
+``
 
 
 ###skewX
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 transform="skewX($1)"
-~~~~~~~
+``
 
 ###skewY
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 transform="skewY($1)"
-~~~~~~~
+``
 
 ###symbol
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <symbol id="$1">
-				
+
 </symbol>
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
-~~~~~~~
+``
 
 ###text
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <text x="$1" y="$2" fill="$3">$4</text>
-~~~~~~~
+``
 
 ###translate
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 transform="translate($1)"
-~~~~~~~
+``
 
 ###tspan
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <tspan fill="$1" x="$2" y="$3">$4</tspan>
-~~~~~~~
+``
 
 ###use
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <use xlink:href="#$1" x="$2" y="$3"/>
-~~~~~~~
+``
 
 ###use3
 
-{lang="html", linenos="off"}
-~~~~~~~
+```html
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
 <use xlink:href="#$1" x="$4" y="$5"/>
-~~~~~~~
+``
 
