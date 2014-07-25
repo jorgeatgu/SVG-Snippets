@@ -8,8 +8,6 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 [DEMO-VIMEO](https://vimeo.com/101490820)
 
 
-
-
 ###circle
 
 ```html
@@ -89,12 +87,6 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 	$2
 
 </g>
-```
-
-###line
-
-```html
-<line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 ```
 
 ###line
