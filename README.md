@@ -7,6 +7,8 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 [DEMO-VIMEO](https://vimeo.com/101490820)
 
+<iframe src="http://player.vimeo.com/video/101490820" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/101490820">SVG-Snippets</a> from <a href="http://vimeo.com/jorgeatgu">jorge ATGU</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 
 ###circle
 
