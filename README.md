@@ -9,7 +9,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 <iframe src="http://player.vimeo.com/video/101490820" width="300" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allowfullscreen></iframe>
+<iframe src="http://player.vimeo.com/video/101490820" width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe>
 
 
 ###circle
