@@ -5,12 +5,7 @@ Type the snippet shortcode and then press `Tab` to complete the snippet.
 
 The snippets are listed below in alphabetical order. The `'$1'` indicates the position of the caret/s. Some snippets have been set up so that pressing Tab jumps the caret/s to the next predefined spot. It's a little hard to explain, but any snippet that has a `$1/$2/$3/etc. uses this technique.
 
-[DEMO-VIMEO](https://vimeo.com/101490820)
-
-<iframe src="http://player.vimeo.com/video/101490820" width="300" height="281" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-<iframe src="http://player.vimeo.com/video/101490820" width="640" height="480" style="display:block; margin: 0 auto;">&nbsp;</iframe>
-
+#[DEMO VIMEO](https://vimeo.com/101490820)
 
 ###circle
 
