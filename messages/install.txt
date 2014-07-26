@@ -9,6 +9,8 @@ Usage
 
 Type the snippet shortcode and then press `Tab` to complete the snippet.
 
+Demo in Vimeo: https://vimeo.com/101490820
+
 
 Support
 =======
