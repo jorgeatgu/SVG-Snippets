@@ -7,7 +7,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 #[Package Control](https://packagecontrol.io/packages/SVG-Snippets)
 #[CodePen](http://codepen.io/jorgeatgu/blog/svg-snippets)
-![Video Vimeo](https://github.com/jorgeatgu/SVG-Snippets/blob/master/vimeo-image.png)](https://vimeo.com/101490820)
+[![Video Vimeo](https://github.com/jorgeatgu/SVG-Snippets/blob/master/vimeo-image.png)](https://vimeo.com/101490820)
 
 ###circle
 
