@@ -155,9 +155,12 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 ###polygonu
 
 ```html
-<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
-<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+<defs>
+	<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
+</defs>
+
+<use xlink:href="#$7" />
+<use xlink:href="#$7" x="$8" y="$9"/>
 ```
 
 ###polyline
