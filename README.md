@@ -9,23 +9,34 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 #[CodePen](http://codepen.io/jorgeatgu/blog/svg-snippets)
 [![Video Vimeo](https://github.com/jorgeatgu/SVG-Snippets/blob/master/vimeo-image.png)](https://vimeo.com/101490820)
 
-###circle
+##Circle
 
 ```html
+
+circle
+
+:before
+
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 ```
 
-###circle3
-
 ```html
+
+circle3
+
+:before
+
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 ```
 
-###circleu
-
 ```html
+
+circleu
+
+:before
+
 <defs>
 	<circle id="$1" r="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 </defs>
@@ -34,7 +45,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 <use xlink:href="#$8" x="$9" y="$10"/>
 ```
 
-###clippath
+##Clippath
 
 ```html
 <defs>
