@@ -59,7 +59,7 @@ Write ```clippath```
 </defs>
 ```
 
-###defsuse
+###Defs + use
 
 Write ```defsuse```
 
@@ -75,9 +75,9 @@ Write ```defsuse```
 <use xlink:href="#$1" x="$2" y="$3"/>
 ```
 
-###ellipse
+##Ellipse
 
-Write ```defsuse```
+Write ```ellipse```
 
 ```html
 
@@ -86,7 +86,7 @@ Write ```defsuse```
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
-Write ```defsuse```
+Write ```ellipse3```
 
 ```html
 
@@ -97,7 +97,7 @@ Write ```defsuse```
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
-Write ```defsuse```
+Write ```ellipseu```
 
 ```html
 
@@ -111,9 +111,9 @@ Write ```defsuse```
 <use xlink:href="#$9" x="$10" y="$11"/>
 ```
 
-###group
+##Group
 
-Write ```defsuse```
+Write ```group```
 
 ```html
 
@@ -128,7 +128,7 @@ Write ```defsuse```
 
 ##Line
 
-Write ```defsuse```
+Write ```line```
 
 ```html
 
@@ -137,9 +137,7 @@ Write ```defsuse```
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 ```
 
-##Lineu
-
-Write ```defsuse```
+Write ```lineu```
 
 ```html
 
@@ -155,7 +153,7 @@ Write ```defsuse```
 
 ##Lineargradient
 
-Write ```defsuse```
+Write ```lineargradient```
 
 ```html
 
@@ -169,7 +167,7 @@ Write ```defsuse```
 
 ##Matrix
 
-Write ```defsuse```
+Write ```matrix```
 
 ```html
 
@@ -180,7 +178,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 
 ##Path
 
-Write ```defsuse```
+Write ```path```
 
 ```html
 
@@ -191,7 +189,7 @@ Write ```defsuse```
 
 ##Pattern
 
-Write ```defsuse```
+Write ```pattern```
 
 ```html
 
@@ -206,7 +204,7 @@ Write ```defsuse```
 
 ##Polygon
 
-Write ```defsuse```
+Write ```polygon```
 
 ```html
 
@@ -215,7 +213,7 @@ Write ```defsuse```
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-Write ```defsuse```
+Write ```polygon3```
 
 ```html
 
@@ -226,7 +224,7 @@ Write ```defsuse```
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-Write ```defsuse```
+Write ```polygonu```
 
 ```html
 
@@ -242,7 +240,7 @@ Write ```defsuse```
 
 ##Polyline
 
-Write ```defsuse```
+Write ```polyline```
 
 ```html
 
@@ -251,7 +249,7 @@ Write ```defsuse```
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-Write ```defsuse```
+Write ```polyline3```
 
 ```html
 
@@ -262,7 +260,7 @@ Write ```defsuse```
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-Write ```defsuse```
+Write ```polylineu```
 
 ```html
 
@@ -278,7 +276,7 @@ Write ```defsuse```
 
 ##Radialgradient
 
-Write ```defsuse```
+Write ```radialgradient```
 
 ```html
 
@@ -292,7 +290,7 @@ Write ```defsuse```
 
 ##Rect
 
-Write ```defsuse```
+Write ```rect```
 
 ```html
 
@@ -303,7 +301,7 @@ Write ```defsuse```
 
 ##Rect3
 
-Write ```defsuse```
+Write ```rect3```
 
 ```html
 
@@ -316,7 +314,7 @@ Write ```defsuse```
 
 ##Rectu
 
-Write ```defsuse```
+Write ```rectu```
 
 ```html
 
@@ -332,7 +330,7 @@ Write ```defsuse```
 
 ##Rotate
 
-Write ```defsuse```
+Write ```rotate```
 
 ```html
 
@@ -343,7 +341,7 @@ transform="rotate($1)"
 
 ##Scalable
 
-Write ```defsuse```
+Write ```scalable```
 
 ```html
 
@@ -360,7 +358,7 @@ Write ```defsuse```
 
 ##Scalableu
 
-Write ```defsuse```
+Write ```scalableu```
 
 ```html
 
@@ -387,7 +385,7 @@ Write ```defsuse```
 
 ##SkewX
 
-Write ```defsuse```
+Write ```skewx```
 
 ```html
 
@@ -398,7 +396,7 @@ transform="skewX($1)"
 
 ##SkewY
 
-Write ```defsuse```
+Write ```skewy```
 
 ```html
 
@@ -409,7 +407,7 @@ transform="skewY($1)"
 
 ##Symbol
 
-Write ```defsuse```
+Write ```symbol```
 
 ```html
 
@@ -424,7 +422,7 @@ Write ```defsuse```
 
 ##Text
 
-Write ```defsuse```
+Write ```text```
 
 ```html
 
@@ -435,7 +433,7 @@ Write ```defsuse```
 
 ##Translate
 
-Write ```defsuse```
+Write ```translate```
 
 ```html
 
@@ -446,7 +444,7 @@ transform="translate($1)"
 
 ##Tspan
 
-Write ```defsuse```
+Write ```tspan```
 
 ```html
 
@@ -457,7 +455,7 @@ Write ```defsuse```
 
 ##Use
 
-Write ```defsuse```
+Write ```use```
 
 ```html
 
@@ -468,7 +466,7 @@ Write ```defsuse```
 
 ##Use3
 
-Write ```defsuse```
+Write ```use3```
 
 ```html
 
