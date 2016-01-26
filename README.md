@@ -80,12 +80,18 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -94,6 +100,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <defs>
 	<ellipse id="$1" rx="$2" ry="$3" cx="$4" cy="$5" fill="$6" stroke="$7" stroke-width="$8"/>
 </defs>
@@ -107,6 +116,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <g id="$1">
 
 	$2
@@ -119,6 +131,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 ```
 
@@ -127,6 +142,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <defs>
 	<line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 </defs>
@@ -140,6 +158,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <linearGradient id="$1" gradientUnits="objectBoundingBox">
 	<stop offset="$2" stop-color="$3"/>
 	<stop offset="$4" stop-color="$5"/>
@@ -151,6 +172,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 transform="matrix($1 $2 $3 $4 $5 $6)"
 ```
 
@@ -159,6 +183,9 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <path d="$1" stroke-width="$2" stroke="$3" fill="$4"/>
 ```
 
@@ -167,6 +194,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <defs>
 	<pattern id="$1" width="$2" height="$3" patternUnits="userSpaceOnUse">
 		$4
@@ -179,12 +209,18 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -193,6 +229,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <defs>
 	<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 </defs>
@@ -206,12 +245,18 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -220,6 +265,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <defs>
 	<polyline id="$1" points="$2" fill="$3" stroke="$4" stroke-width="$5"/>
 </defs>
@@ -233,6 +281,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <radialGradient id="$1" gradientUnits="objectBoundingBox">
 	<stop offset="$2" stop-color="$3"/>
 	<stop offset="$4" stop-color="$5"/>
@@ -244,6 +295,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
@@ -252,6 +306,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -262,6 +319,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <defs>
 	<rect id="$1" x="$2" y="$3" width="$4" height="$5" fill="$6" stroke="$7" stroke-width="$8"/>
 </defs>
@@ -275,6 +335,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 transform="rotate($1)"
 ```
 
@@ -283,6 +346,9 @@ transform="rotate($1)"
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
 
@@ -297,6 +363,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
 
@@ -321,6 +390,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 transform="skewX($1)"
 ```
 
@@ -329,6 +401,9 @@ transform="skewX($1)"
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 transform="skewY($1)"
 ```
 
@@ -337,6 +412,9 @@ transform="skewY($1)"
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <symbol id="$1">
 
 </symbol>
@@ -349,6 +427,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <text x="$1" y="$2" fill="$3">$4</text>
 ```
 
@@ -357,6 +438,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 transform="translate($1)"
 ```
 
@@ -365,6 +449,9 @@ transform="translate($1)"
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <tspan fill="$1" x="$2" y="$3">$4</tspan>
 ```
 
@@ -373,6 +460,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <use xlink:href="#$1" x="$2" y="$3"/>
 ```
 
@@ -381,6 +471,9 @@ Write ```defsuse```
 Write ```defsuse```
 
 ```html
+
+/* before */
+
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
 <use xlink:href="#$1" x="$4" y="$5"/>
