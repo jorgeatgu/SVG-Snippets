@@ -11,31 +11,30 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 
 ##Circle
 
+Write ```circle```
+
 ```html
-
-circle
-
-:before
+/* before */
 
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 ```
 
+Write ```circle3```
+
 ```html
 
-circle3
-
-:before
+/* before */
 
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 ```
 
+Write ```circleu```
+
 ```html
 
-circleu
-
-:before
+/* before */
 
 <defs>
 	<circle id="$1" r="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -47,7 +46,12 @@ circleu
 
 ##Clippath
 
+Write ```clippath```
+
 ```html
+
+/* before */
+
 <defs>
 	<clipPath id="$1">
 		$2
@@ -57,7 +61,12 @@ circleu
 
 ###defsuse
 
+Write ```defsuse```
+
 ```html
+
+/* before */
+
 <defs>
 
 </defs>
@@ -68,11 +77,13 @@ circleu
 
 ###ellipse
 
+Write ```defsuse```
+
 ```html
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
-###ellipse3
+Write ```defsuse```
 
 ```html
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -80,7 +91,7 @@ circleu
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
-###ellipseu
+Write ```defsuse```
 
 ```html
 <defs>
@@ -93,6 +104,8 @@ circleu
 
 ###group
 
+Write ```defsuse```
+
 ```html
 <g id="$1">
 
@@ -101,13 +114,17 @@ circleu
 </g>
 ```
 
-###line
+##Line
+
+Write ```defsuse```
 
 ```html
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 ```
 
-###lineu
+##Lineu
+
+Write ```defsuse```
 
 ```html
 <defs>
@@ -118,7 +135,9 @@ circleu
 <use xlink:href="#$7" x="$8" y="$9"/>
 ```
 
-###lineargradient
+##Lineargradient
+
+Write ```defsuse```
 
 ```html
 <linearGradient id="$1" gradientUnits="objectBoundingBox">
@@ -127,19 +146,25 @@ circleu
 </linearGradient>
 ```
 
-###matrix
+##Matrix
+
+Write ```defsuse```
 
 ```html
 transform="matrix($1 $2 $3 $4 $5 $6)"
 ```
 
-###path
+##Path
+
+Write ```defsuse```
 
 ```html
 <path d="$1" stroke-width="$2" stroke="$3" fill="$4"/>
 ```
 
-###pattern
+##Pattern
+
+Write ```defsuse```
 
 ```html
 <defs>
@@ -149,13 +174,15 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 </defs>
 ```
 
-###polygon
+##Polygon
+
+Write ```defsuse```
 
 ```html
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-###polygon3
+Write ```defsuse```
 
 ```html
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -163,7 +190,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-###polygonu
+Write ```defsuse```
 
 ```html
 <defs>
@@ -174,13 +201,15 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <use xlink:href="#$7" x="$8" y="$9"/>
 ```
 
-###polyline
+##Polyline
+
+Write ```defsuse```
 
 ```html
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-###polyline3
+Write ```defsuse```
 
 ```html
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -188,7 +217,7 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
 
-###polylineu
+Write ```defsuse```
 
 ```html
 <defs>
@@ -199,7 +228,9 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <use xlink:href="#$6" x="$7" y="$8"/>
 ```
 
-###radialgradient
+##Radialgradient
+
+Write ```defsuse```
 
 ```html
 <radialGradient id="$1" gradientUnits="objectBoundingBox">
@@ -208,13 +239,17 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 </radialGradient>
 ```
 
-###rect
+##Rect
+
+Write ```defsuse```
 
 ```html
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
-###rect3
+##Rect3
+
+Write ```defsuse```
 
 ```html
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -222,7 +257,9 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
 
-###rectu
+##Rectu
+
+Write ```defsuse```
 
 ```html
 <defs>
@@ -233,13 +270,17 @@ transform="matrix($1 $2 $3 $4 $5 $6)"
 <use xlink:href="#$9" x="$10" y="$11"/>
 ```
 
-###rotate
+##Rotate
+
+Write ```defsuse```
 
 ```html
 transform="rotate($1)"
 ```
 
-###scalable
+##Scalable
+
+Write ```defsuse```
 
 ```html
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
@@ -251,7 +292,9 @@ transform="rotate($1)"
 </svg>
 ```
 
-###scalableu
+##Scalableu
+
+Write ```defsuse```
 
 ```html
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
@@ -273,19 +316,25 @@ transform="rotate($1)"
 ```
 
 
-###skewX
+##SkewX
+
+Write ```defsuse```
 
 ```html
 transform="skewX($1)"
 ```
 
-###skewY
+##SkewY
+
+Write ```defsuse```
 
 ```html
 transform="skewY($1)"
 ```
 
-###symbol
+##Symbol
+
+Write ```defsuse```
 
 ```html
 <symbol id="$1">
@@ -295,31 +344,41 @@ transform="skewY($1)"
 <use xlink:href="#$1" x="$2" y="$3"/>
 ```
 
-###text
+##Text
+
+Write ```defsuse```
 
 ```html
 <text x="$1" y="$2" fill="$3">$4</text>
 ```
 
-###translate
+##Translate
+
+Write ```defsuse```
 
 ```html
 transform="translate($1)"
 ```
 
-###tspan
+##Tspan
+
+Write ```defsuse```
 
 ```html
 <tspan fill="$1" x="$2" y="$3">$4</tspan>
 ```
 
-###use
+##Use
+
+Write ```defsuse```
 
 ```html
 <use xlink:href="#$1" x="$2" y="$3"/>
 ```
 
-###use3
+##Use3
+
+Write ```defsuse```
 
 ```html
 <use xlink:href="#$1"/>
