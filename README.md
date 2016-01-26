@@ -14,7 +14,7 @@ The snippets are listed below in alphabetical order. The `'$1'` indicates the po
 Write ```circle```
 
 ```html
-/* before */
+/* after */
 
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 ```
@@ -23,7 +23,7 @@ Write ```circle3```
 
 ```html
 
-/* before */
+/* after */
 
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
 <circle r="$1" cx="$2" cy="$3" fill="$4" stroke="$5" stroke-width="$6"/>
@@ -34,7 +34,7 @@ Write ```circleu```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<circle id="$1" r="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -50,7 +50,7 @@ Write ```clippath```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<clipPath id="$1">
@@ -65,7 +65,7 @@ Write ```defsuse```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 
@@ -81,7 +81,7 @@ Write ```ellipse```
 
 ```html
 
-/* before */
+/* after */
 
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
@@ -90,7 +90,7 @@ Write ```ellipse3```
 
 ```html
 
-/* before */
+/* after */
 
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <ellipse rx="$1" ry="$2" cx="$3" cy="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -101,7 +101,7 @@ Write ```ellipseu```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<ellipse id="$1" rx="$2" ry="$3" cx="$4" cy="$5" fill="$6" stroke="$7" stroke-width="$8"/>
@@ -117,7 +117,7 @@ Write ```group```
 
 ```html
 
-/* before */
+/* after */
 
 <g id="$1">
 
@@ -132,7 +132,7 @@ Write ```line```
 
 ```html
 
-/* before */
+/* after */
 
 <line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
 ```
@@ -141,7 +141,7 @@ Write ```lineu```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<line x1="$1" y1="$2" x2="$3" y2="$4" stroke="$5" stroke-width="$6"/>
@@ -157,7 +157,7 @@ Write ```lineargradient```
 
 ```html
 
-/* before */
+/* after */
 
 <linearGradient id="$1" gradientUnits="objectBoundingBox">
 	<stop offset="$2" stop-color="$3"/>
@@ -171,7 +171,7 @@ Write ```matrix```
 
 ```html
 
-/* before */
+/* after */
 
 transform="matrix($1 $2 $3 $4 $5 $6)"
 ```
@@ -182,7 +182,7 @@ Write ```path```
 
 ```html
 
-/* before */
+/* after */
 
 <path d="$1" stroke-width="$2" stroke="$3" fill="$4"/>
 ```
@@ -193,7 +193,7 @@ Write ```pattern```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<pattern id="$1" width="$2" height="$3" patternUnits="userSpaceOnUse">
@@ -208,7 +208,7 @@ Write ```polygon```
 
 ```html
 
-/* before */
+/* after */
 
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
@@ -217,7 +217,7 @@ Write ```polygon3```
 
 ```html
 
-/* before */
+/* after */
 
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -228,7 +228,7 @@ Write ```polygonu```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<polygon points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -244,7 +244,7 @@ Write ```polyline```
 
 ```html
 
-/* before */
+/* after */
 
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 ```
@@ -253,7 +253,7 @@ Write ```polyline3```
 
 ```html
 
-/* before */
+/* after */
 
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
 <polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>
@@ -264,7 +264,7 @@ Write ```polylineu```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<polyline id="$1" points="$2" fill="$3" stroke="$4" stroke-width="$5"/>
@@ -280,7 +280,7 @@ Write ```radialgradient```
 
 ```html
 
-/* before */
+/* after */
 
 <radialGradient id="$1" gradientUnits="objectBoundingBox">
 	<stop offset="$2" stop-color="$3"/>
@@ -294,7 +294,7 @@ Write ```rect```
 
 ```html
 
-/* before */
+/* after */
 
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 ```
@@ -305,7 +305,7 @@ Write ```rect3```
 
 ```html
 
-/* before */
+/* after */
 
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
 <rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>
@@ -318,7 +318,7 @@ Write ```rectu```
 
 ```html
 
-/* before */
+/* after */
 
 <defs>
 	<rect id="$1" x="$2" y="$3" width="$4" height="$5" fill="$6" stroke="$7" stroke-width="$8"/>
@@ -334,7 +334,7 @@ Write ```rotate```
 
 ```html
 
-/* before */
+/* after */
 
 transform="rotate($1)"
 ```
@@ -345,7 +345,7 @@ Write ```scalable```
 
 ```html
 
-/* before */
+/* after */
 
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
@@ -362,7 +362,7 @@ Write ```scalableu```
 
 ```html
 
-/* before */
+/* after */
 
 <svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
 			viewBox="$1" width="$2" height="$3" aria-labelledby="title desc">
@@ -389,7 +389,7 @@ Write ```skewx```
 
 ```html
 
-/* before */
+/* after */
 
 transform="skewX($1)"
 ```
@@ -400,7 +400,7 @@ Write ```skewy```
 
 ```html
 
-/* before */
+/* after */
 
 transform="skewY($1)"
 ```
@@ -411,7 +411,7 @@ Write ```symbol```
 
 ```html
 
-/* before */
+/* after */
 
 <symbol id="$1">
 
@@ -426,7 +426,7 @@ Write ```text```
 
 ```html
 
-/* before */
+/* after */
 
 <text x="$1" y="$2" fill="$3">$4</text>
 ```
@@ -437,7 +437,7 @@ Write ```translate```
 
 ```html
 
-/* before */
+/* after */
 
 transform="translate($1)"
 ```
@@ -448,7 +448,7 @@ Write ```tspan```
 
 ```html
 
-/* before */
+/* after */
 
 <tspan fill="$1" x="$2" y="$3">$4</tspan>
 ```
@@ -459,7 +459,7 @@ Write ```use```
 
 ```html
 
-/* before */
+/* after */
 
 <use xlink:href="#$1" x="$2" y="$3"/>
 ```
@@ -470,7 +470,7 @@ Write ```use3```
 
 ```html
 
-/* before */
+/* after */
 
 <use xlink:href="#$1"/>
 <use xlink:href="#$1" x="$2" y="$3"/>
