@@ -9,5 +9,5 @@
 ]]></content>
 	<description>SVG - BASIC SHAPES: line</description>
 	<tabTrigger>lineu</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

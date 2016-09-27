@@ -2,5 +2,5 @@
 	<content><![CDATA[transform="scale($1)"]]></content>
 	<description>SVG - TRANSFORM: scale</description>
 	<tabTrigger>scale</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

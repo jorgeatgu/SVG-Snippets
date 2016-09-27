@@ -9,5 +9,5 @@
 ]]></content>
 	<description>SVG - BASIC SHAPES: ellipse + use</description>
 	<tabTrigger>ellipseu</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

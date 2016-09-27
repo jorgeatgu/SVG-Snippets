@@ -8,5 +8,5 @@
 ]]></content>
 	<description>SVG - PATTERN: patterns</description>
 	<tabTrigger>pattern</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

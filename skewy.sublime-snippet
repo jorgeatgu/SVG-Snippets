@@ -2,5 +2,5 @@
 	<content><![CDATA[transform="skewY($1)"]]></content>
 	<description>SVG - TRANSFORM: skewY</description>
 	<tabTrigger>skewY</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

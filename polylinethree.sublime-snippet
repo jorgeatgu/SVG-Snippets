@@ -6,5 +6,5 @@
 ]]></content>
 	<description>SVG - BASIC SHAPES: polyline × 3</description>
 	<tabTrigger>polyline3</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

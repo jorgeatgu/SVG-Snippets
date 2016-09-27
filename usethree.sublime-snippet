@@ -6,5 +6,5 @@
 ]]></content>
 	<description>SVG - DRY: use × 3</description>
 	<tabTrigger>use3</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

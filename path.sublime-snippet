@@ -2,5 +2,5 @@
 	<content><![CDATA[<path d="$1" stroke-width="$2" stroke="$3" fill="$4"/>]]></content>
 	<description>SVG - BASIC SHAPES: path</description>
 	<tabTrigger>path</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

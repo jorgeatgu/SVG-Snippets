@@ -2,5 +2,5 @@
 	<content><![CDATA[<rect x="$1" y="$2" width="$3" height="$4" fill="$5" stroke="$6" stroke-width="$7"/>]]></content>
 	<description>SVG - BASIC SHAPES: rectangle</description>
 	<tabTrigger>rect</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

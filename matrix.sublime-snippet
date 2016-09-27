@@ -2,5 +2,5 @@
 	<content><![CDATA[transform="matrix($1 $2 $3 $4 $5 $6)"]]></content>
 	<description>SVG - TRANSFORM: matrix</description>
 	<tabTrigger>matrix</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

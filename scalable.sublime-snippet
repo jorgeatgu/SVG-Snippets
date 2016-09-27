@@ -10,5 +10,5 @@
 ]]></content>
 	<description>SVG - STRUCTURE: svg + title + desc</description>
 	<tabTrigger>scalable</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

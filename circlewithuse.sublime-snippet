@@ -9,5 +9,5 @@
 ]]></content>
 	<description>SVG - BASIC SHAPES: circle + use</description>
 	<tabTrigger>circleu</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

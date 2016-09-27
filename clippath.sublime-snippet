@@ -8,5 +8,5 @@
 ]]></content>
 	<description>SVG - Clip-Path: clipPath</description>
 	<tabTrigger>clippath</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

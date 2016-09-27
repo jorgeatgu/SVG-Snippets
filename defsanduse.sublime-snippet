@@ -10,5 +10,5 @@
 ]]></content>
 	<description>SVG - DRY: defs + use</description>
 	<tabTrigger>defsuse</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

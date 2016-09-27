@@ -8,5 +8,5 @@
 ]]></content>
 	<description>SVG - MASK: mask</description>
 	<tabTrigger>mask</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

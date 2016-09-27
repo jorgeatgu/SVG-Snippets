@@ -9,5 +9,5 @@
 ]]></content>
 	<description>SVG - BASIC SHAPES: polygon + use</description>
 	<tabTrigger>polygonu</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

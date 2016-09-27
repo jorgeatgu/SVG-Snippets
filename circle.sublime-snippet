@@ -3,5 +3,5 @@
 </content>
 	<description>SVG - BASIC SHAPES: circle</description>
 	<tabTrigger>circle</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

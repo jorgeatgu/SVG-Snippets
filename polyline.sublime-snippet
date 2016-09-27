@@ -2,5 +2,5 @@
 	<content><![CDATA[<polyline points="$1" fill="$2" stroke="$3" stroke-width="$4"/>]]></content>
 	<description>SVG - BASIC SHAPES: polyline</description>
 	<tabTrigger>polyline</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

@@ -8,5 +8,5 @@
 ]]></content>
 	<description>SVG - Symbol: symbol</description>
 	<tabTrigger>symbol</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

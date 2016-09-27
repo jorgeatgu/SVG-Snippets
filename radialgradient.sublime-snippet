@@ -7,5 +7,5 @@
 ]]></content>
 	<description>SVG - GRADIENTS: radialGradient</description>
 	<tabTrigger>radialgradient</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>

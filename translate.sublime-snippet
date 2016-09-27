@@ -2,5 +2,5 @@
 	<content><![CDATA[transform="translate($1)"]]></content>
 	<description>SVG - TRANSFORM: translate</description>
 	<tabTrigger>translate</tabTrigger>
-	<scope>text.html, text.xml</scope>
+	<scope>text.html, text.xml, source.js</scope>
 </snippet>
