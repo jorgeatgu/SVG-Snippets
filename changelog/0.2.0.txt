@@ -1,0 +1,5 @@
+v0.2.0
+
+Added JavaScript Scope to the snippets. Now you can see the snippets in JavaScript, for example, write SVG inline in React.
+
+
