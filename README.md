@@ -477,3 +477,22 @@ Write ```use3```
 <use xlink:href="#$1" x="$4" y="$5"/>
 ```
 
+##Scalable with Inverted Y-Axis
+
+Write ```scalablei```
+
+```html
+
+/* after */
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+    viewBox="$1 $2 $3 $4" width="$5" height="$6" aria-labelledby="title desc">
+        <title id="title">$7</title>
+        <desc id="desc">$8</desc>
+        <g transform="translate(0,$4) scale(1,-1)">
+            ${9:<!-- content -->}
+        </g>
+
+</svg>
+```
+
